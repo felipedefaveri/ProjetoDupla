@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, Component } from 'react';
 import {
   View,
   Text,
@@ -90,6 +90,7 @@ const itens = [
   },
 ];
 
+
 function Listagem() {
   return (
     <View>
@@ -97,7 +98,7 @@ function Listagem() {
         ListHeaderComponent={() => (
           <View>
             <View style={styles.searchBar}>
-              <TextInput
+              <TextInput 
                 style={{
                   type: 'text',
                   backColor: 'white',
@@ -105,7 +106,7 @@ function Listagem() {
                   borderColor: 'gray',
                   width: '85%',
                   borderWidth: 1,
-                  borderRadius: 10,
+                  borderRadius: 5,
                   alignItems: 'flex-end',
                 }}
               />
