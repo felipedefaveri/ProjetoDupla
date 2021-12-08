@@ -1,31 +1,28 @@
 import {StyleSheet} from 'react-native';
 
-
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-   // justifyContent: 'space-evenly',
+    // justifyContent: 'space-evenly',
     color: 'white',
     //alignItems: 'stretch',
     marginBottom: 5,
     elevation: 4,
-    backgroundColor:'#1C1C1C'
-    
-    
+    backgroundColor: '#1C1C1C',
   },
   imageBotton: {
     borderRadius: 50,
     width: 40,
     height: 40,
     marginLeft: 20,
-    marginRight:10
+    marginRight: 10,
   },
   iconButton: {
     height: 50,
     width: 45,
     marginRight: 50,
-    color:'white',
-    justifyContent:'center',
+    color: 'white',
+    justifyContent: 'center',
     alignItems: 'center',
   },
   borderContainer: {
@@ -38,9 +35,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 15,
     marginLeft: 10,
-    color:'white',
-    fontFamily:'PressStart2P-Regular'
-   
+    color: 'white',
+    fontFamily: 'PressStart2P-Regular',
   },
 });
 

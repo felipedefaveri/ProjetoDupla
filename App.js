@@ -1,4 +1,3 @@
-
 import React from 'react';
 import {
   SafeAreaView,
@@ -17,18 +16,14 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import Home from './src/pages/home/home'
+import Home from './src/pages/home/home';
 
-
-
-function App () {
+function App() {
   return (
-    <View style={{backgroundColor:'white'}}>
-      <Home/>
+    <View style={{backgroundColor: 'white'}}>
+      <Home />
     </View>
-
-  )
-};
-
+  );
+}
 
 export default App;
